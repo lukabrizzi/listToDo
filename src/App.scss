@@ -1,0 +1,57 @@
+.app {
+  padding: 0 !important;
+
+  .title {
+    height: 100px;
+    background-color: #1da3e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+      color: #fff;
+    }
+  }
+
+  .todo {
+    margin: 60px 0 0 0;
+
+    &__title {
+      background-color: #fff;
+      height: 90px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #dadada;
+
+      h2  {
+        color: #008dd0;
+        letter-spacing: 10px;
+      }
+    }
+
+    &__list {
+      padding: 0;
+      border-left: 1px solid #dadada;
+      border-left: 1px solid #dadada;
+      border-right: 1px solid #dadada;
+      background-color: #fff;
+      max-height: calc(100vh - 400px);
+      overflow: scroll;
+    }
+
+    &__input {
+      pad: 0;
+      border-left: 1px solid #dadada;
+      border-right: 1px solid #dadada;
+      border-bottom: 1px solid #dadada;
+      background-color: #fff;
+      border-bottom-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      overflow: hidden;
+    }
+  }
+}
